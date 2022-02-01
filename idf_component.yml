@@ -1,3 +1,4 @@
+version: "0.0.2"
 description: "Arduino core for ESP32, ESP32-S and ESP32-C series of SoCs"
 url: "https://github.com/espressif/arduino-esp32"
 targets:
