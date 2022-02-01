@@ -17,3 +17,4 @@ jobs:
           name: arduino-esp32
           namespace: espressif
           api_token: ${{ secrets.IDF_COMPONENT_API_TOKEN }}
+          service_url: https://api.staging.components.espressif.tools/

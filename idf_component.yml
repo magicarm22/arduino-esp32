@@ -6,3 +6,15 @@ targets:
   - esp32c3
 tags:
   - arduino
+files:
+  include:
+    - "cores/**/*"
+    - "variants/esp32/**/*"
+    - "variants/esp32s2/**/*"
+    - "variants/esp32s3/**/*"
+    - "variants/esp32c3/**/*"
+    - "libraries/**/*"
+    - "CMakeLists.txt"
+    - "Kconfig.projbuild"
+  exclude:
+    - "**/*"
